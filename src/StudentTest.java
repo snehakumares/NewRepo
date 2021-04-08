@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Scanner;
+
 import static org.junit.Assert.assertEquals;
 
 public class StudentTest {
@@ -61,5 +63,11 @@ public class StudentTest {
         for(Student s:s1){
             System.out.println(s.greeting());
         }
+    }
+    @Test
+    public void testProject(){
+        Student s1 = new Student();
+        s1.project=ProjectState.ASSIGNED;
+        assertEquals("Work assigned",s1.projectState());
     }
 }
