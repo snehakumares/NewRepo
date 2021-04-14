@@ -1,4 +1,6 @@
-import java.util.Scanner;
+package mylearningphase1;
+
+import mylearningphase1.ProjectState;
 
 public class Student {
     private static int noofstudents=0;
@@ -20,6 +22,8 @@ public class Student {
     public static int numberOfStudents() {
         return noofstudents;
     }
+
+
 
     public String printHello() {
         return "Hello world";

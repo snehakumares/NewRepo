@@ -1,3 +1,5 @@
+package mylearningphase1;
+
 public class Name {
     public String firstName;
     public String lastName;

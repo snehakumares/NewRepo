@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration debug="true">
+    <appender name="STDOUT" calss="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:MM:ss.SSS} [%thread] %-5level %logger{36} -msg %n</pattern>
+        </encoder>
+    </appender>
+    <logger name="mylearningphase1.logging" level="debug"/>
+    <root level="ÏNFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

@@ -1,6 +1,6 @@
-import org.junit.Test;
+package mylearningphase1;
 
-import java.util.Scanner;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -67,7 +67,7 @@ public class StudentTest {
     @Test
     public void testProject(){
         Student s1 = new Student();
-        s1.project=ProjectState.ASSIGNED;
+        s1.project= ProjectState.ASSIGNED;
         assertEquals("Work assigned",s1.projectState());
     }
 }
